@@ -401,7 +401,7 @@ QLoRA 训练的是适配器，冻结的低比特基座参与前向和梯度传�
 - [AWQ 原论文：逐通道缩放与搜索](https://arxiv.org/html/2306.00978v5)
 - [PyTorch AO：Quantization-Aware Training](https://docs.pytorch.org/ao/main/workflows/qat.html)
 - [FP8 Formats for Deep Learning，v1，第 2–3 节与表 1](https://arxiv.org/abs/2209.05433v1)
-- [OCP Microscaling Formats (MX) Specification v1.0](https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf)。本次审阅时 PDF 直接下载受阻；转换示例依据下列微软实现核验，不将其视为唯一允许的配方。
+- [OCP Microscaling Formats (MX) Specification v1.0](https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf)
 - [微软 MX 库：最大指数缩放与 scale 边界，固定版本](https://github.com/microsoft/microxcaling/blob/7bc41952de394f5cc5e782baf132e7c7542eb4e4/mx/mx_ops.py)
 - [NVIDIA：Introducing NVFP4 for Efficient and Accurate Low-Precision Inference](https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)
 - [NVIDIA Transformer Engine：FP8 入门与 MXFP8/NVFP4，固定版本 notebook](https://github.com/NVIDIA/TransformerEngine/blob/63b14c2d8326d84a471481217cac4f0296d6c07e/docs/examples/fp8_primer.ipynb)

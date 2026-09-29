@@ -401,7 +401,7 @@ QLoRA trains adapters. Its frozen low-bit base participates in forward computati
 - [AWQ paper: per-channel scaling and search](https://arxiv.org/html/2306.00978v5)
 - [PyTorch AO: Quantization-Aware Training](https://docs.pytorch.org/ao/main/workflows/qat.html)
 - [FP8 Formats for Deep Learning, v1, §§2–3 and Table 1](https://arxiv.org/abs/2209.05433v1)
-- [OCP Microscaling Formats (MX) Specification v1.0](https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf). Direct PDF download was blocked during this review; the conversion example was checked against Microsoft's implementation below, not treated as the only permitted recipe.
+- [OCP Microscaling Formats (MX) Specification v1.0](https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf)
 - [Microsoft MX library: max-exponent scaling and scale limits, pinned revision](https://github.com/microsoft/microxcaling/blob/7bc41952de394f5cc5e782baf132e7c7542eb4e4/mx/mx_ops.py)
 - [NVIDIA: Introducing NVFP4 for Efficient and Accurate Low-Precision Inference](https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)
 - [NVIDIA Transformer Engine: FP8 primer and MXFP8/NVFP4, pinned notebook](https://github.com/NVIDIA/TransformerEngine/blob/63b14c2d8326d84a471481217cac4f0296d6c07e/docs/examples/fp8_primer.ipynb)
