@@ -855,11 +855,11 @@
       "translation_sha256": "a5783464e2383b3ff8d9e02cdb0f7c5d66cf788a3c186e1f6dd731f4fc6c5648"
     },
     "docs/llm/03-inference-serving/15-quantization.md": {
-      "note": "Paired review of new section 15.2.3 (integer vs FP8/FP4 formats), summary item 2, description, and references. Format properties checked against the FP8 paper, OCP MX v1.0 spec, NVIDIA NVFP4 blog and Transformer Engine FP8 primer, gpt-oss model card, AMD ROCm CDNA3/CDNA4 blog, and vLLM w8a8_utils.",
-      "reviewed_at": "2026-09-24T09:42:53+00:00",
-      "source_sha256": "9e8c3418840bbac3085725fb7b32729a1d57e49b5622abcded428da389ed313a",
+      "note": "PR16 correction review: full English/Chinese chapter pair read; synchronized section 15.2.3, summary and references. Checked FP8 paper v1 sections 2-3, ONNX normal/subnormal and special-value definitions, pinned Microsoft MX scaling and even-rounding implementation, NVIDIA NVFP4 and pinned Transformer Engine recipes, AMD CDNA3/CDNA4 documentation, gpt-oss model card v1 section 2.1/Table 1, and vLLM v0.10.2 normalization. Exact arithmetic checked all 256 E4M3 byte patterns, numeric examples, MX scale bounds/ties, and NVFP4 scale storage. Direct OCP PDF download was blocked; its conversion policy was not claimed as universally mandatory.",
+      "reviewed_at": "2026-09-29T04:25:10+00:00",
+      "source_sha256": "530efe04429b99a8e46ec67258c9badbd0ad3d44b4f26b6eb848f73be24c7bd5",
       "translation": "docs/llm/03-inference-serving/15-quantization.zh.md",
-      "translation_sha256": "13656524089a8d3714e29565e1b6784fcf4b2c0f2345fffa07eea1e4ccfb28c1"
+      "translation_sha256": "09c78382b0d75cad37dd0eeff93e17eb5a3bcf9743f42fa40cfd86dc81bd830b"
     },
     "docs/llm/03-inference-serving/19-moe.md": {
       "note": "Initial full English-first migration from be53feda: all 143 knowledge chapters and reader/support page pairs reviewed; primary-source checks and approved paired corrections are recorded in book/i18n/reviews. Chinese links localized and both reading indexes regenerated; version pairing does not replace semantic review.",
